@@ -17,7 +17,7 @@ body {
 	height: 1200px;
 	margin-left: 0;
 	margin-top: 0;
-	background-image: url('../img/bg.JPG');
+	background-image: url('../img/bg.jpg');
 	background-repeat: repeat;
 	z-index: -1;
 }
