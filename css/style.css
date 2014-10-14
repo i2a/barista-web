@@ -1,0 +1,52 @@
+/*
+Copyright (c) 2014 http://github.com/i2a
+
+See the file LICENSE for copying permission.
+*/
+
+body {
+	margin: 0px;
+	text-align: center;
+}
+
+#cafe {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1200px;
+	margin-left: 0;
+	margin-top: 0;
+	background-image: url('../img/bg.JPG');
+	background-repeat: repeat;
+	z-index: -1;
+}
+
+.stretch {
+	max-width: 99%;
+	max-height: 99%;
+	height: auto;
+}
+
+.rain {
+-webkit-animation: animatedBackground 3s linear infinite;
+-moz-animation: animatedBackground 3s linear infinite;
+-o-animation: animatedBackground 3s linear infinite;
+-ms-animation: animatedBackground 3s linear infinite;
+}
+@-webkit-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: 0 -200%; }
+}
+@-moz-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: 0 -200%; }
+}
+@-o-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: 0 -200%; }
+}
+@-ms-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: 0 -200%; }
+}
